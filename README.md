@@ -1,11 +1,26 @@
-**ALBERTIR-Reproducibility**
-Code for the continued pre-training of ALBERTIR on Quran and Hadith corpora
-**Model di Hugging Face**
-The ALBERTIR model is available at:
-[https://huggingface.co/irwan19/albertir-quran-hadith](https://huggingface.co/irwan19/albertir-quran-hadith)
-**To facilitate your verification that the model works correctly, we have included the following simple code example. This code can be run in Google Colab without requiring a GPU.**
-**Copy and run the following code colab:**
+# ALBERTIR-Reproducibility
 
+Code for the continued pre-training of ALBERTIR on Quran and Hadith corpora.
+
+---
+
+## 🤗 Model di Hugging Face
+
+The ALBERTIR model is available at:  
+[https://huggingface.co/irwan19/albertir-quran-hadith](https://huggingface.co/irwan19/albertir-quran-hadith)
+
+---
+
+## 📂 Repository Structure
+
+---
+
+## ⚙️ Installation
+
+```bash
+pip install -r requirements.txt
+python train.py
+python test_model.py
 from transformers import AutoModelForMaskedLM, AutoTokenizer
 import torch
 
